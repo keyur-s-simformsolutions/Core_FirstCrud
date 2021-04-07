@@ -1,4 +1,6 @@
+using EmployeeCrud_core.Infastucture;
 using EmployeeCrud_core.Models;
+using EmployeeCrud_core.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -27,6 +29,8 @@ namespace EmployeeCrud_core
         {
             services.AddControllersWithViews();
             services.AddDbContext<MyDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefualtConnection")));
+            services.AddTransient<IEmployeeRepo, EmployeeRepo>();
+            services.AddAutoMapper(typeof(EmployeeProfile));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

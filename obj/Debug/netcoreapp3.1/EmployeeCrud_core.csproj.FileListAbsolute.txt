@@ -165,3 +165,6 @@ C:\Users\Keyur.Somaiya\source\repos\EmployeeCrud_core\EmployeeCrud_core\bin\Debu
 C:\Users\Keyur.Somaiya\source\repos\EmployeeCrud_core\EmployeeCrud_core\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Index.cshtml.g.cs
 C:\Users\Keyur.Somaiya\source\repos\EmployeeCrud_core\EmployeeCrud_core\obj\Debug\netcoreapp3.1\Razor\Views\Employee\EmployeeList.cshtml.g.cs
 C:\Users\Keyur.Somaiya\source\repos\EmployeeCrud_core\EmployeeCrud_core\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Details.cshtml.g.cs
+C:\Users\Keyur.Somaiya\source\repos\EmployeeCrud_core\EmployeeCrud_core\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\Keyur.Somaiya\source\repos\EmployeeCrud_core\EmployeeCrud_core\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Keyur.Somaiya\source\repos\EmployeeCrud_core\EmployeeCrud_core\bin\Debug\netcoreapp3.1\libman.json
